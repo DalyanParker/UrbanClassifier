@@ -29,7 +29,9 @@ The function expects as parameters:
 ## Data
 
 The data used for this program is retrived from https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11.
-The toolkit specifically uses the 2020 data, with resolution of approximately 1 Km, specifically _gpw_v4_population_count_rev11_2020_30_sec.tif_
+The toolkit specifically uses the 2020 data, with resolution of approximately 1 Km, specifically:
+
+1. _gpw_v4_population_count_rev11_2020_30_sec.tif_
 
 ### Citation
 

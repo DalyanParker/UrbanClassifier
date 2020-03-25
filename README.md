@@ -17,14 +17,27 @@ The Toolkit contains clearly written code, along with clear commenting and docum
 
 ### urbanByAverage(bound, arr, x, y, r)
 
-The function urbanByAverage, return a boolen, where true indicates that the program has classified the given area as Urban, based on given parameters.
+The function urbanByAverage, return a boolen, where true indicates that the program has classified the given r x r area's population density average as Urban, based on given parameters.
+
 The function expects as parameters:
 
-1. bound : numeric value, the threshold average which, if the returned calculated population density average is greater than or equal to, will be used to classify this average as Urban
-2. arr : the Raster Data encocoded as a multidimensional array -- a matrix
-3. x : longitude
-4. y : latitude
-5. r : numeric value, will determine the r x r area covered in approximately r x r Km squared
+1. _bound_ : numeric value, the threshold average which, if the returned calculated population density average is greater than or equal to, will be used to classify this average as Urban
+2. _arr_ : the Raster Data encocoded as a multidimensional array - a matrix handled by the program
+3. _x_ : longitude
+4. _y_ : latitude
+5. _r_ : numeric value, will determine the r x r area covered in approximately r x r Km squared
+
+### urbanByTotal(bound, arr, x, y, r)
+
+The function urbanByTotal, return a boolen, where true indicates that the program has classified the given r x r area's population density total as Urban, based on given parameters.
+
+The function expects as parameters:
+
+1. _bound_ : numeric value, the threshold average which, if the returned calculated population density average is greater than or equal to, will be used to classify this average as Urban
+2. _arr_ : the Raster Data encocoded as a multidimensional array - a matrix handled by the program
+3. _x_ : longitude
+4. _y_ : latitude
+5. _r_ : numeric value, will determine the r x r area covered in approximately r x r Km squared
 
 ## Data
 

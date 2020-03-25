@@ -4,12 +4,12 @@ UrbanClassifier is a program which gives detailed information regarding populati
 
 Its main functionality includes:
 
-⋅⋅ Calculating total population density for a user specified approximate r x r area in Km squared, for a user specified pair of coordinates
-⋅⋅ Calculating average population density for a user specified approximate r x r area in Km squared, for a user specified pair of coordinates
-⋅⋅ Classification of whether a calcuated total population density, with a given threshold, is Urban.
-⋅⋅ Classification of whether a calcuated average population density, with a given threshold, is Urban.
-⋅⋅ Extracting population density data at resolution of approximatley 1 Km squared (30 secs) for a given pair of coordinates
-⋅⋅ Conversion of coordinate points to meaningful Raster cells
+1. Calculating total population density for a user specified approximate r x r area in Km squared, for a user specified pair of coordinates
+2. Calculating average population density for a user specified approximate r x r area in Km squared, for a user specified pair of coordinates
+3. Classification of whether a calcuated total population density, with a given threshold, is Urban.
+4. Classification of whether a calcuated average population density, with a given threshold, is Urban.
+5. Extracting population density data at resolution of approximatley 1 Km squared (30 secs) for a given pair of coordinates
+6. Conversion of coordinate points to meaningful Raster cells
 
 ## UrbanClassifierToolkit
 
@@ -20,11 +20,11 @@ The Toolkit contains clearly written code, along with clear commenting and docum
 The function urbanByAverage, return a boolen, where true indicates that the program has classified the given area as Urban, based on given parameters.
 The function expects as parameters:
 
-⋅⋅bound : numeric value, the threshold average which, if the returned calculated population density average is greater than or equal to, will be used to classify this average as Urban
-⋅⋅arr : the Raster Data encocoded as a multidimensional array -- a matrix
-⋅⋅x : longitude
-⋅⋅y : latitude
-⋅⋅r : numeric value, will determine the r x r area covered in approximately r x r Km squared
+1. bound : numeric value, the threshold average which, if the returned calculated population density average is greater than or equal to, will be used to classify this average as Urban
+2. arr : the Raster Data encocoded as a multidimensional array -- a matrix
+3. x : longitude
+4. y : latitude
+5. r : numeric value, will determine the r x r area covered in approximately r x r Km squared
 
 ## Data
 
@@ -33,4 +33,4 @@ The toolkit specifically uses the 2020 data, with resolution of approximately 1 
 
 ### Citation
 
-⋅⋅Center for International Earth Science Information Network - CIESIN - Columbia University. 2018. Gridded Population of the World, Version 4 (GPWv4): Population Density, Revision 11. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). https://doi.org/10.7927/H49C6VHW. Accessed 25 03 2020.
+Center for International Earth Science Information Network - CIESIN - Columbia University. 2018. Gridded Population of the World, Version 4 (GPWv4): Population Density, Revision 11. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). https://doi.org/10.7927/H49C6VHW. Accessed 25 03 2020.
